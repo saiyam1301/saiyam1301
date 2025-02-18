@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'FuturaPT';
+    src: url("../assets/fonts/Futura PT/FuturaCyrillicBook.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    min-height: 2.3rem;
+    padding: 0.7rem;
+    background-color: rgb(151, 231, 244); /* #67998B */
+    font-family: "FuturaPT"
+}
+
+.saiyamContainer {
+    margin-left: 3rem;
+    margin-right: 20rem;
+    padding-inline: 20px;
+}
+
+.saiyam {
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.saiyam:hover {
+    text-decoration: underline;
+}
+
+.otherContainer {
+    display: flex;
+    margin-right: 8rem;
+}
+
+.otherContainer div {
+    margin-inline: 20px;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.otherContainer div:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../assets/fonts/Montserrat/static/Montserrat-Regular.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Verdana";
+    src: url("../assets/fonts/Verdana/verdana.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.mainContainer {
+    padding-inline: 6em;
+    background-color: hsl(240, 67%, 90%);
+}
+
+.name {
+    padding-top: 3rem;
+    font-size: 3rem;
+    font-family: "Montserrat";
+}
+
+.skills {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+    color: hsl(0, 0%, 25%);
+}
+
+.contactWork {
+    display: flex;
+    align-items: center;
+    margin-top: 1.3rem;
+    font-size: 1.2rem;
+}
+
+.contact {
+    margin-right: 2rem;
+    border: 2px solid green;
+    padding: 0.85rem;
+    background-color: hsl(143, 61%, 94%);
+    border-radius: 5px;
+}
+
+.contact:hover {
+    cursor: pointer;
+    background-color: hsl(143, 61%, 85%);
+
+}
+
+.projects {
+    color: rgb(86, 86, 215);
+}
+
+.contact:hover, .projects:hover {
+    cursor: pointer;
+}
+
+.achievementsContainer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.achievement {
+    padding: 2rem;
+    padding-left: 0.2rem;
+    padding-right: 1.5rem;
+    font-family: "Verdana";
+    font-size: 1rem;
+    margin-right: 2rem;
+    /* border: 2px solid green; */
+}
