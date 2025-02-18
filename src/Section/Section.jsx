@@ -1,7 +1,7 @@
 import styles from "./Section.module.css"
 import Info from "../Info/Info.jsx";
 import Footer from "../Footer/Footer.jsx";
-import saiyamImage from "../assets/Images/saiyam.png";
+import saiyamImage from "../assets/images/saiyam.png";
 
 function Section () {
 
